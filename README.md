@@ -1,4 +1,4 @@
-# python
+# hesapmakinesi
 Bu kod, bir PyQt5 arayüzü oluşturarak basit bir hesap makinesi uygulamasını temsil eder. Kullanıcı arayüzünde bir grup içinde sayılar, operatörler ve ekran bulunmaktadır. Kullanıcı arayüzünde bir grup içinde sayılar, operatörler ve ekran bulunmaktadır. Kullanıcı bu düğmelere tıkladığında veya operatörleri kullandığında ekranın içeriği değişir ve kullanıcı tarafından girilen ifadeleri gösterir.
 
 Bu kodun açıklaması şu şekildedir:
