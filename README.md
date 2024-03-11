@@ -1,18 +1,33 @@
-# hesapmakinesi
-Bu kod, bir PyQt5 arayüzü oluşturarak basit bir hesap makinesi uygulamasını temsil eder. Kullanıcı arayüzünde bir grup içinde sayılar, operatörler ve ekran bulunmaktadır. Kullanıcı arayüzünde bir grup içinde sayılar, operatörler ve ekran bulunmaktadır. Kullanıcı bu düğmelere tıkladığında veya operatörleri kullandığında ekranın içeriği değişir ve kullanıcı tarafından girilen ifadeleri gösterir.
+# Basit Hesap Makinesi
 
-Bu kodun açıklaması şu şekildedir:
-Öncelikle QT Designer kullanarak arayüzün taslağını oluşturdum. Daha sonra CMD ye bazı komutlar yazarak .ui uzantılı dosyayı .py koduna çevirdim. 
-setupUi: Kullanıcı arayüzünü oluşturan PyQt5 UI kodunu içerir. Butonlar, ekran ve grup kutuları gibi arayüz öğeleri burada tanımlanır ve düzenlenir.
-retranslateUi: Arayüzdeki metinleri yerelleştirmek için kullanılır. Bu metinler, kullanıcı arabirimindeki düğme etiketleri ve grup kutusu başlığı gibi öğelerdir.
-Butonlara tıklama olayları, kullanıcının sayıları ekran alanına eklemesini veya operatörleri eklemesini sağlar.
-clear_screen: Ekran alanını temizler, yani içeriğini siler.
-on_operator_click: Operatör düğmelerine tıklandığında çağrılır ve ilgili operatörü ekran alanına ekler.
-calculate_result: Kullanıcının girdiği ifadeyi değerlendirir ve sonucu ekran alanına yazar. Bu işlem eval fonksiyonu kullanılarak gerçekleştirilir. Ancak, eval fonksiyonunun güvenlik riskleri olabileceği için dikkatli kullanılmalıdır.
+Bu proje, PyQt5 kullanarak basit bir hesap makinesi uygulamasını içerir. Kullanıcı arayüzü, sayı butonları, operatörler ve bir sonuç ekranı içerir. Ayrıca, girilen ifadenin doğru bir şekilde değerlendirilmesi ve sonucun hesaplanması işlevselliği de mevcuttur.
 
+## Nasıl Kullanılır
 
+1. Uygulamayı çalıştırın.
+2. Sayı butonlarına tıklayarak istediğiniz sayıları girin.
+3. Operatör butonlarına tıklayarak işlemleri seçin.
+4. "=" butonuna tıklayarak girilen ifadenin sonucunu hesaplayın.
+5. "C" butonuna tıklayarak ekranı temizleyin.
 
+## Gereksinimler
 
+- Python 3.x
+- PyQt5 kütüphanesi
+
+## Kurulum
+
+1. PyQt5 kütüphanesini yükleyin:
+
+pip install PyQt5
+
+3. Uygulamayı çalıştırın:
+
+## Lisans
+
+## Katkılar
+
+Katkılarınızı memnuniyetle karşılıyoruz! Herhangi bir öneriniz veya geri bildiriminiz varsa, lütfen bir konu açın veya bir çekme isteği gönderin.
 
 
 
