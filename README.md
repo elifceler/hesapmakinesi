@@ -19,16 +19,10 @@ Bu proje, PyQt5 kullanarak basit bir hesap makinesi uygulamasını içerir. Kull
 
 1. PyQt5 kütüphanesini yükleyin:
 
-pip install PyQt5
+`pip install PyQt5`
 
 3. Uygulamayı çalıştırın:
-
-## Lisans
 
 ## Katkılar
 
 Katkılarınızı memnuniyetle karşılıyoruz! Herhangi bir öneriniz veya geri bildiriminiz varsa, lütfen bir konu açın veya bir çekme isteği gönderin.
-
-
-
-
