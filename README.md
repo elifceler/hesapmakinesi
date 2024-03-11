@@ -9,13 +9,9 @@ Butonlara tıklama olayları, kullanıcının sayıları ekran alanına eklemesi
 clear_screen: Ekran alanını temizler, yani içeriğini siler.
 on_operator_click: Operatör düğmelerine tıklandığında çağrılır ve ilgili operatörü ekran alanına ekler.
 calculate_result: Kullanıcının girdiği ifadeyi değerlendirir ve sonucu ekran alanına yazar. Bu işlem eval fonksiyonu kullanılarak gerçekleştirilir. Ancak, eval fonksiyonunun güvenlik riskleri olabileceği için dikkatli kullanılmalıdır.
-Bu kodu içeren bir README dosyası oluşturmak istiyorsanız, README dosyasına şunları ekleyebilirsiniz:
 
-Kodun kısa bir açıklaması.
-Kullanım talimatları: Kodu çalıştırmak için gereken adımlar (örneğin, PyQt5 kurulumu) ve uygulamanın nasıl kullanılacağı.
-Uygulamanın ne yaptığına dair bir örnek veya ekran görüntüsü.
-Gereksinimler: Hangi Python ve PyQt5 sürümlerinin gerektiği gibi, uygulamanın hangi ortamda çalıştırılabileceği.
-Bu bilgiler README dosyasını daha kullanıcı dostu hale getirir ve diğer kişilerin kodunuzu anlamasına ve kullanmasına yardımcı olur.
+
+
 
 
 
